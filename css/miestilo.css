@@ -1,0 +1,57 @@
+
+body {
+	background-color: #005883; 
+padding: 40 40px;
+text-align: center;
+
+
+}
+nav {
+	float: center;
+}
+nav ul {
+	margin: 50;
+	padding: 10;
+	list-style: none;
+	padding-left: 0px;
+	text-align: left;
+	background: white; /*#CCCCCC;*/
+}
+	
+nav ul li {                    /*menu horizontal*/
+		display: inline-block;
+		line-height: 50px;
+	}
+			
+nav ul li a {
+			display: block;
+				padding: 0 20px;
+				font: 22px verdana, sans-serif;
+				font-family: Franklin Gothic Book;
+		}
+
+
+#logo-header {
+	float: right;
+vertical-align: text-top;
+position: absolute;
+  top:  5px; 
+  left: 1050px;
+
+}
+
+h1 {
+	font-family: Franklin Gothic Book;
+	font-size: 240%
+
+}
+h2 {
+font: 28px normal;
+font-size: 150%
+}
+#test {
+	float: left;
+vertical-align: text-top;
+
+
+}
