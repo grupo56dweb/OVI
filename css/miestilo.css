@@ -1,26 +1,34 @@
 
 body {
 	background-color: #005883; 
-padding: 40 40px;
+padding: 60 40px;
 text-align: center;
-
-
 }
+
 nav {
 	float: center;
+	margin: 0;
+	padding: 1;
+	/*width: 50;
+height: 50;*/
 }
+
 nav ul {
-	margin: 50;
-	padding: 10;
+	margin: 0;
+	padding: 2;
 	list-style: none;
-	padding-left: 0px;
+	padding-left: 2px;
 	text-align: left;
-	background: white; /*#CCCCCC;*/
+	background: white; 
+	width: 1160;
+height: 27;
 }
 	
 nav ul li {                    /*menu horizontal*/
 		display: inline-block;
-		line-height: 50px;
+		border: 1px solid #7C7C7C;
+  
+
 	}
 			
 nav ul li a {
@@ -35,9 +43,15 @@ nav ul li a {
 	float: right;
 vertical-align: text-top;
 position: absolute;
-  top:  5px; 
-  left: 1050px;
+  top:  25px; 
+  left: 1060px;
 
+}
+.aside1{
+	background: white;
+	margin-top: 10px;
+	float: right;
+	width: 240px;
 }
 
 h1 {
@@ -47,11 +61,12 @@ h1 {
 }
 h2 {
 font: 28px normal;
-font-size: 150%
+font-size: 170%
 }
 #test {
 	float: left;
 vertical-align: text-top;
-
-
+max-width: 40%;
+    height: auto;
+    width: auto/9; /* Bug de ie8 */
 }
