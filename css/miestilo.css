@@ -63,6 +63,12 @@ h2 {
 font: 28px normal;
 font-size: 170%
 }
+h3 {
+font: 18px normal;
+text-align: left;
+/*font-size: 170%*/
+}
+
 #test {
 	float: left;
 vertical-align: text-top;
