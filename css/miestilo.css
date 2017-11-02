@@ -1,6 +1,7 @@
 
 body {
 	background-color: #005883; 
+	
 padding: 60 40px;
 text-align: center;
 }
@@ -13,12 +14,20 @@ nav {
 height: 50;*/
 }
 
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
 nav ul {
+	
 	margin: 0;
-	padding: 2;
+	padding:2;
 	list-style: none;
 	padding-left: 2px;
-	text-align: left;
+	text-align: center;
 	background: white; 
 	width: 1160;
 height: 27;
@@ -27,7 +36,8 @@ height: 27;
 nav ul li {                    /*menu horizontal*/
 		display: inline-block;
 		border: 1px solid #7C7C7C;
-  
+		
+		text-shadow: 0px 2px 3px #555;
 
 	}
 			
@@ -36,6 +46,7 @@ nav ul li a {
 				padding: 0 20px;
 				font: 22px verdana, sans-serif;
 				font-family: Franklin Gothic Book;
+				text-shadow: 0px 2px 3px #555;
 		}
 
 
@@ -60,7 +71,7 @@ h1 {
 
 }
 h2 {
-font: 28px normal;
+font: 22px normal;
 font-size: 170%
 }
 h3 {
@@ -76,3 +87,8 @@ max-width: 40%;
     height: auto;
     width: auto/9; /* Bug de ie8 */
 }
+
+footer { clear: both }
+footer h1 { text-align: center; font-size: 0.9em;  padding: 0.7em; }
+footer h2 { text-align: center; font-size: 1em; padding: 0.4em; }
+footer a { text-decoration: none; color: white; }
