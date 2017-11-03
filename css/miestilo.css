@@ -1,56 +1,66 @@
-
-body {
-	background-color: #005883; 
+ #horizontalmenu ul {
+        
+		
+		
+			margin: 0;
+	padding:2;
+	list-style: none;
+	padding-left: 2px;
+	text-align: center;
 	
-padding: 60 40px;
-text-align: center;
-}
+	width: 1160;
+	height: 27;
+    }
+    #horizontalmenu li {
+        float: left;
+        position: relative;
+        padding-right: 100;
+        display: block;
+        border: 4px solid #7C7C7D;
+        border-style: inset;
+    }
+    #horizontalmenu li ul {
+        display: none;
+        position: absolute;
+		border: 1px solid #2C4C7C;
+		text-shadow: 0px 2px 3px #555;
+		
+    }
+    #horizontalmenu li:hover ul {
+        display: block;
+        background: white;
+        height: auto;
+	width: 8em;
+	}
 
-nav {
+	#horizontalmenu ul li a {
+	display: block;
+				
+				font: 22px verdana, sans-serif;
+				
+				background: white;
+				
+	
+    }
+    #horizontalmenu li ul li {
+        clear: both;
+        border-style: none;
+    }
+	
+	body {
+	background-color: #005883; 
+	padding: 60 40px;
+	text-align: center;
+	}
+	nav {
 	float: center;
 	margin: 0;
 	padding: 1;
 	/*width: 50;
 height: 50;*/
-}
-
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #333;
-}
-nav ul {
-	
-	margin: 0;
-	padding:2;
-	list-style: none;
-	padding-left: 2px;
-	text-align: center;
-	background: white; 
-	width: 1160;
-height: 27;
-}
-	
-nav ul li {                    /*menu horizontal*/
-		display: inline-block;
-		border: 1px solid #7C7C7C;
-		
-		text-shadow: 0px 2px 3px #555;
-
 	}
-			
-nav ul li a {
-			display: block;
-				padding: 0 20px;
-				font: 22px verdana, sans-serif;
-				font-family: Franklin Gothic Book;
-				text-shadow: 0px 2px 3px #555;
-		}
 
-
-#logo-header {
+	#logo-header {
 	float: right;
 vertical-align: text-top;
 position: absolute;
