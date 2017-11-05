@@ -28,19 +28,21 @@
     }
     #horizontalmenu li:hover ul {
         display: block;
-        background: white;
+        background-color: #005883; 
         height: auto;
-	width: 8em;
+		width: 1em;
 	}
 
 	#horizontalmenu ul li a {
-	display: block;
-				
-				font: 22px verdana, sans-serif;
-				
-				background: white;
-				
-	
+		
+		
+		font: 22px verdana;
+		font-family: Franklin Gothic Book;
+		color: black;
+		margin-top: 2px;
+		margin-left: 2px;
+		
+		
     }
     #horizontalmenu li ul li {
         clear: both;
@@ -52,13 +54,7 @@
 	padding: 60 40px;
 	text-align: center;
 	}
-	nav {
-	float: center;
-	margin: 0;
-	padding: 1;
-	/*width: 50;
-height: 50;*/
-	}
+
 
 	#logo-header {
 	float: right;
@@ -69,7 +65,7 @@ position: absolute;
 
 }
 .aside1{
-	background: white;
+	
 	margin-top: 10px;
 	float: right;
 	width: 240px;
@@ -78,27 +74,44 @@ position: absolute;
 h1 {
 	font-family: Franklin Gothic Book;
 	font-size: 240%
-
+	background-color: #005883; 
+	
 }
 h2 {
 font: 22px normal;
-font-size: 170%
+font-family: Franklin Gothic Book;
+font-size: 170%;
+background-color: #005883; 
 }
 h3 {
 font: 18px normal;
+font-family: Franklin Gothic Book;
 text-align: left;
+background-color: #005883; 
 /*font-size: 170%*/
 }
 
 #test {
+	
 	float: left;
-vertical-align: text-top;
-max-width: 40%;
+	vertical-align: text-top;
+	max-width: 40%;
     height: auto;
     width: auto/9; /* Bug de ie8 */
 }
 
-footer { clear: both }
-footer h1 { text-align: center; font-size: 0.9em;  padding: 0.7em; }
-footer h2 { text-align: center; font-size: 1em; padding: 0.4em; }
-footer a { text-decoration: none; color: white; }
+footer { 
+clear: both 
+}
+
+footer h1 {
+text-align: center; font-size: 0.9em;  padding: 0.7em; 
+}
+
+footer h2 {
+text-align: center; font-size: 1em; padding: 0.4em; 
+}
+
+footer a {
+text-decoration: none; color: white; 
+}
